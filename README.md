@@ -11,6 +11,21 @@ It originated with JavaScript. But, Python makes it pretty easy to both read in 
 
 #### Dump S => dumps(), dumps an object to a string. Load S => loads(), loads an object from a string in JSON. JSON dot Load S => json.loads(), loads from a string into a Python object either a list or a dictionary, and JSON dot dump S => json.dumps(), dumps from a Python list or dictionary into a string.
 
+#### Understand, Extract, Repeat method of incrementally figuring out how to extract data from a nested data structure.
+
+Mnemonic or specific or related names are good we are working with multiple nested loops.
+
+When we are in control of the data structure is to make it very regular with always the same kinds of items in the same level of nesting. In other words, don't mix integers, lists, and dictionaries as items in a single list.
+
+#### Object1 is Object2 => checks whether Object1 and Object2 are same objects or not. If the objects are same, then their contents will also be same.
+
+#### Object1 == Object2 => checks whether the contents of Object1 and Object2 are same or not. In this case, the objects can be different but their contents can be same or equal.
+
+#### Suppose, to make a deep copy of an original list, create a new list, iterate over the original list and append each item to the new list. Now, the new list will be a deep copy of the original list.
+
+To select all the inner items of a list do this => lst[:], it will take all the inner items of the lst list.
+
+
 
 
 
