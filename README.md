@@ -32,10 +32,22 @@ The `map function` makes a new list where each item in the original list is tran
 #### Map just lets us specify hey, apply this transformer function (triple) to every single item in the sequence (a_list) and return a new list => 
 #### new_list = map(triple, a_list)
 
-#### ```
-#### import json
-#### json.dumps(a_sequence, indent=2)
-#### ```
+```
+import json
+json.dumps(a_sequence, indent=2)
+```
+#### The above code snippet will provide a prettier look whenever you work with long nested sequence of items.
+
+#### zip() function takes two sequences and zips them together, matching their first items together, their second items together, and so on. It makes it easy to do operations where you have to make pairwise comparisons or pairwise combinations. Provides you the option to match up the items in multiple sequences positionally, so that you can do something with all the first items, something with all the second items, and so on.
+#### You can use it (the zip() function) whenever you want to do pairwise operations. For example, if you wanted to take three lists of words and generate a single list that had the longest of the three words in each position, you could first zip all three lists together to generate a list of tuples, then you could write a list comprehension to do a mapping operation, transforming each tuple of three words into a single string, the longest of the three words. 
+
+#### range(5) => 0, 1, 2, 3, 4; Upto but not including the last number.
+
+
+
+
+
+
 
 
 
