@@ -32,10 +32,10 @@ The `map function` makes a new list where each item in the original list is tran
 #### Map just lets us specify hey, apply this transformer function (triple) to every single item in the sequence (a_list) and return a new list => 
 #### new_list = map(triple, a_list)
 
-```
-#### import json
-#### json.dumps(a_sequence, indent=2)
-```
+#### ```
+import json
+json.dumps(a_sequence, indent=2)
+#### ```
 
 
 
