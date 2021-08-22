@@ -25,6 +25,23 @@ When we are in control of the data structure is to make it very regular with alw
 
 To select all the inner items of a list do this => lst[:], it will take all the inner items of the lst list.
 
+The `map function` makes a new list where each item in the original list is transformed in some way. For example, suppose we want to transform each item by doubling it, so we make a new list that has doubles of all the values in the original list.
+
+#### The key thing in map(transformer function, sequence) and sorted(key-function, sequence) is that, the transformer and key-function is modeled in such a way that the function will be applied to each item of the provided sequence (whatever the transformer or key-function is: named or lambda expression). Finally, the resultant values are accumulated in a new sequence.
+
+#### Map just lets us specify hey, apply this transformer function (triple) to every single item in the sequence (a_list) and return a new list => 
+#### new_list = map(triple, a_list)
+
+```
+#### import json
+#### json.dumps(a_sequence, indent=2)
+```
+
+
+
+
+
+
 
 
 
