@@ -33,8 +33,8 @@ The `map function` makes a new list where each item in the original list is tran
 #### new_list = map(triple, a_list)
 
 #### ```
-import json
-json.dumps(a_sequence, indent=2)
+#### import json
+#### json.dumps(a_sequence, indent=2)
 #### ```
 
 
