@@ -137,3 +137,5 @@ for item in athletes:
             t.append(name)
         else:
             other.append(name)
+
+            
