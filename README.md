@@ -45,6 +45,19 @@ json.dumps(a_sequence, indent=2)
 
 #### The most pythonic way to deal with map() and filter() is the list comprehension. List comprehensions are widely used to combine map() and filter() in one line of code.
 
+The server says where to fetch something from, and the argument says what to fetch from that remote server. The protocol says how to communicate with that remote server.
+
+www.si.umich.edu => this is a Domain Name, each domain is connected to a server at a particular time. The servers get interchanged with time. Each server has an IP Address. Domain names are mapped to IP Addresses, such as=> www.si.umich.edu -> 159.89.239.247
+
+So, Domain Names are stable but IP Addresses are not.
+
+#### A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for `Representational State Transfer` and was created by computer scientist Roy Fielding.
+
+https => is the secured version of http. The 's' stands for secured.
+
+IP Address numbers are bound to 0 - 255 (decimal numbers) (8 bits binary numbers).
+
+
 
 
 
