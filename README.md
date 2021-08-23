@@ -43,6 +43,8 @@ json.dumps(a_sequence, indent=2)
 
 #### range(5) => 0, 1, 2, 3, 4; Upto but not including the last number.
 
+#### The most pythonic way to deal with map() and filter() is the list comprehension. List comprehensions are widely used to combine map() and filter() in one line of code.
+
 
 
 
