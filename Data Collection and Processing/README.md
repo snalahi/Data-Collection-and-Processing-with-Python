@@ -1,5 +1,5 @@
 When you fetch a web page, the server response where the response code is one of the HTTP headers.
-Errors that you might find while fetching data from a web server:
+<br /> Errors that you might find while fetching data from a web server:
 ```
 => '200' means that it was able to respond successfully.
 => '404' means file not found. That is the server doesn't recognize the path that you asked for.
