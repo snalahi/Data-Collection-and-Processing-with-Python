@@ -8,3 +8,30 @@ Errors that you might find while fetching data from a web server:
 => '451' means unavailable for legal reasons. It's intended to be used when resource access is
     denied for legal reasons, like censorship or government mandated blocked access.
 ```
+
+#### Response objects
+Once we run requests.get, a python object is returned. It’s an instance of a class called Response that is defined in the requests module. A Response object, in the full implementation of the `requests module` has the following useful attributes that can be accessed in your program:
+```
+.text
+.url
+.json()
+.status_code
+.headers
+.history
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
