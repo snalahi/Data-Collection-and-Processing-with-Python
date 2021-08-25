@@ -34,3 +34,14 @@ for photo in photos:
     url = 'https://www.flickr.com/photos/{}/{}'.format(owner, photo_id)
     print(url)
     # webbrowser.open(url) # this will print out each url with contents on a new page
+
+    
+######################### The final output ##################################
+# found in permanent_cache
+# https://api.flickr.com/services/rest/?api_key=yourkeyhere&tags=river%2Cmountains&tag_mode=all&method=flickr.photos.search&per_page=5&media=photos
+# &format=json&nojsoncallback=1
+# https://www.flickr.com/photos/45934971@N07/44858440865
+# https://www.flickr.com/photos/145056248@N07/43953569330
+# https://www.flickr.com/photos/145056248@N07/43953448610
+# https://www.flickr.com/photos/131540074@N08/44857602655
+# https://www.flickr.com/photos/145056248@N07/44857423045
