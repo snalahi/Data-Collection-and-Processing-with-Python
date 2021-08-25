@@ -23,6 +23,12 @@ Once we run requests.get, a python object is returned. It’s an instance of a c
 #### params dictionary substitution in requests.get()
 Spaces are substituted as '%20'; multiple key, value pairs are connected with '&' and key to value is represented as key=value in generated URL when requests.get(some_page_url, params=a_dict_should_be_passed) is used to generated URL.
 
+#### To get the actual sense of what the params query would be to extract data from a web server, go for the documentation of that web server!!!!. Mind it!!!
+
+#### params should have a dictionary as it's argument. Two things you should look for. If it's saying that it couldn't generate a valid URL, then either you're not passing in a dictionary or one of the values or keys in the dictionary is not a string.
+
+
+
 
 
 
