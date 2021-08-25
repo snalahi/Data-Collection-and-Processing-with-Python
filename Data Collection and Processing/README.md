@@ -20,6 +20,9 @@ Once we run requests.get, a python object is returned. It’s an instance of a c
 .history
 ```
 
+#### params dictionary substitution in requests.get()
+Spaces are substituted as '%20'; multiple key, value pairs are connected with '&' and key to value is represented as key=value in generated URL when requests.get(some_page_url, params=a_dict_should_be_passed) is used to generated URL.
+
 
 
 
